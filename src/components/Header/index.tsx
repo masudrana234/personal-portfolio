@@ -41,7 +41,7 @@ export function Header() {
               alt="logo"
             />
           </div>
-          {'Saravanakumar'}
+          {'Masud Rana'}
         </Link>
         <div className="settings">
           <Settings toggleTheme={toggleTheme} currentTheme={currentTheme} />
@@ -102,25 +102,25 @@ export function Header() {
         </ul>
         <Icons>
           <Link
-            href={'https://github.com/Saravanakumar2003'}
+            href={'https://github.com/masudrana234'}
             target="_blank"
             aria-label={currentLang === 'ta' ? 'கிட்ஹப் இணைப்பு' : 'Link to Github'}>
             <FiGithub />
           </Link>
           <Link
-            href={'https://www.linkedin.com/in/saravanaramaswamy2003/'}
+            href={'https://www.linkedin.com/in/masudrana7/'}
             target="_blank"
             aria-label={currentLang === 'ta' ? 'லிங்க்டின் இணைப்பு' : 'Link to Linkedin'}>
             <FiLinkedin />
           </Link>
           <Link
-            href={'https://www.instagram.com/saravanakumar.me?utm_source=qr'}
+            href={'https://www.instagram.com/masudrana_rm?utm_source=qr'}
             target="_blank"
             aria-label={currentLang === 'ta' ? 'இன்ஸ்டாகிராம்' : 'Instagram'}>
             <FiInstagram />
           </Link>
           <Link
-            href={'https://api.whatsapp.com/send?phone=918838416187'}
+            href={'https://api.whatsapp.com/send?phone=8801308202656'}
             target="_blank"
             aria-label={currentLang === 'ta' ? 'வாட்ஸ்அப் மூலம் தொடர்பு கொள்ள' : 'Link to contact via WhatsApp'}>
             <FaWhatsapp />
@@ -129,4 +129,5 @@ export function Header() {
       </NavMenu>
     </HeaderContainer>
   );
+
 }
